@@ -2,19 +2,19 @@
 
 
 # 0. Dataset at
-\\10.50.20.16\LDP_Team\CORETF\ROECS_dataset
+\\\\10.50.20.16\LDP_Team\CORETF\ROECS_dataset
 
 # 1. Prerequisites
-We have tested the library in **Ubuntu 14.04**, but it should be easy to compile in other platforms.
+We have tested the library in **Ubuntu 20.04**, but it should be easy to compile in other platforms.
 
-## C++11 or C++0x Compiler
-We use the new thread and chrono functionalities of C++11.
+## C++14 Compiler
+We use the new thread and chrono functionalities of C++14.
 
 ## Sophus
 This is an Lie algebra library. More details can be found in https://github.com/strasdat/Sophus.
 
 ## OpenCV
-We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. **We use 3.4.1, but it should also work for other version at least 3.0**.
+We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. version 4.4.0.
 
 ## Eigen3
 Download and install instructions can be found at: http://eigen.tuxfamily.org.
@@ -23,7 +23,6 @@ Download and install instructions can be found at: http://eigen.tuxfamily.org.
 We use [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations.
 
 # 2. Building the project
-We use CMake to build the project on ubuntu 14.04.
 ```
 cd ROECS/
 mkdir build
